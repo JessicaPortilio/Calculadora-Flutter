@@ -23,3 +23,43 @@ Uma calculadora moderna desenvolvida com **Flutter** e a biblioteca **math_expre
 - Botões animados com efeito de clique
 - Layout responsivo em Grid
 - Lógica de cálculo separada da interface
+
+---
+
+## Dependências
+
+- flutter
+- math_expressions
+
+Adicionadas no pubspec.yaml:
+
+```bash
+dependencies:
+  flutter:
+    sdk: flutter
+  math_expressions: ^2.2.0
+
+```
+
+
+---
+
+## 🛠️ Como Rodar o Projeto
+
+### Pré-requisitos
+- [Flutter](https://flutter.dev/docs/get-started/install) instalado na máquina
+- Um dispositivo físico/emulador
+
+### Passos
+
+```bash
+# Clone o repositório
+git clone https://github.com/JessicaPortilio/Calculadora-Flutter.git
+cd calculadora-flutter
+
+# Instale as dependências
+flutter pub get
+
+# Execute no emulador ou dispositivo
+flutter run
+
